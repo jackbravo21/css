@@ -1,0 +1,87 @@
+body{
+    background-color: lightblue;
+}
+
+/* Font Family */
+
+.p1 {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Font Style */
+
+p.normal {
+  font-style: normal;
+}
+
+p.italic {
+  font-style: italic;
+}
+
+p.oblique {
+  font-style: oblique;
+}
+
+/* Font Wreight */
+
+p.normal {
+  font-weight: normal;
+}
+
+p.light {
+  font-weight: lighter;
+}
+
+p.thick {
+  font-weight: bold;
+}
+
+p.thicker {
+  font-weight: 900;
+}
+
+/* Font Variant */
+
+p.normal {
+  font-variant: normal;
+}
+
+p.small {
+  font-variant: small-caps;
+}
+
+/* Font Size por pixel */
+
+h1.pixel {
+  font-size: 40px;
+}
+
+h2.pixel {
+  font-size: 30px;
+}
+
+p.pixel {
+  font-size: 14px;
+}
+
+/* Fonte com EM */
+
+h1.em {
+  font-size: 2.5em; /* 40px/16=2.5em */
+}
+
+h2.em {
+  font-size: 1.875em; /* 30px/16=1.875em */
+ }
+
+p.em {
+  font-size: 0.875em; /* 14px/16=0.875em */
+}

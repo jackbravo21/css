@@ -1,0 +1,50 @@
+div.hw1 {
+    height: 50px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+  }
+
+div.hw2 {
+    height: 200px;
+    width: 50%;
+    background-color: powderblue;
+}
+
+div.hw3 {
+    height: 100px;
+    width: 500px;
+    background-color: powderblue;
+  }
+
+div.hw4 {
+    max-width: 500px;
+    height: 100px;
+    background-color: powderblue;
+  }
+
+img.one {
+    height: auto;
+  }
+  
+img.two {
+    height: 200px;
+    width: 200px;
+  }
+  
+div.three {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(143, 240, 253);
+  }
+
+div.hw5 {
+    max-width: 400px;
+    min-width: 100px;
+    background-color: powderblue;
+  }
+
+div.hw6 {
+    max-height: 600px;
+    min-height: 400px;
+    background-color: powderblue;
+  }

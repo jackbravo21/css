@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+
+p {
+  text-indent: 50px;
+}
+
+h2 {
+  letter-spacing: 5px;
+}
+
+h3 {
+  letter-spacing: -2px;
+}
+
+p.small {
+  line-height: 0.7;
+}
+
+p.big {
+  line-height: 1.8;
+}
+
+p.one {
+  word-spacing: 10px;
+}
+
+p.two {
+  word-spacing: -2px;
+}
+
+p.white {
+  white-space: nowrap;
+}

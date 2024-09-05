@@ -1,0 +1,18 @@
+body{
+    background-color: lightblue;
+}
+
+p.ex1 {
+    margin: 30px;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+  }
+
+p.ex2 {
+    margin: 30px;
+    background:yellow;
+    border: 1px solid black;
+    outline: 1px solid red;
+    outline-offset: 15px;
+  }

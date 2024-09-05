@@ -1,0 +1,154 @@
+body{
+    background-color: lightblue;
+}
+
+h1.ex1 {
+  text-decoration: overline;
+}
+
+h2.ex1 {
+  text-decoration: line-through;
+}
+
+h3.ex1 {
+  text-decoration: underline;
+}
+
+p.ex1 {
+  text-decoration: overline underline;
+}
+
+/* */
+
+h1.ex2 {
+  text-decoration-line: overline;
+  text-decoration-color: red;
+}
+
+h2.ex2 {
+  text-decoration-line: line-through;
+  text-decoration-color: blue;
+}
+
+h3.ex2 {
+  text-decoration-line: underline;
+  text-decoration-color: green;  
+}
+
+p.ex2 {
+  text-decoration-line: overline underline;
+  text-decoration-color: purple;  
+}
+
+/* */
+
+h1.ex3 {
+  text-decoration-line: underline;
+  text-decoration-style: solid; /* this is default */
+}
+
+h2.ex3 {
+  text-decoration-line: underline;
+  text-decoration-style: double;
+}
+
+h3.ex3 {
+  text-decoration-line: underline;
+  text-decoration-style: dotted;  
+}
+
+p.ex31 {
+  text-decoration-line: underline;
+  text-decoration-style: dashed;  
+}
+
+p.ex32 {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;  
+}
+
+p.ex33 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: wavy;  
+}
+
+/* */
+
+h1.ex4 {
+  text-decoration-line: underline;
+  text-decoration-thickness: auto;  /* this is default */
+}
+
+h2.ex4 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+}
+
+h3.ex4 {
+  text-decoration-line: underline;
+  text-decoration-thickness: 25%;
+}
+
+p.ex4 {
+  text-decoration-line: underline;
+  text-decoration-color: red;  
+  text-decoration-style: double;
+  text-decoration-thickness: 5px;  
+}
+
+/* */
+
+h1.ex5 {
+  text-decoration: underline;
+}
+
+h2.ex5 {
+  text-decoration: underline red;
+}
+
+h3.ex5 {
+  text-decoration: underline red double;
+}
+
+p.ex5 {
+  text-decoration: underline red double 5px;
+}
+
+/* */
+
+a {
+  text-decoration: none;
+}
+
+/* Marcacao underline */
+
+div.a {
+  text-decoration: underline;
+}
+
+div.b {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+div.c {
+  text-decoration: underline wavy blue;
+}
+
+div.d {
+  text-decoration: underline wavy blue;
+  text-underline-offset: 10px;  
+} 
+
+/* text-underline-position */
+
+div.e {
+  text-decoration: underline;
+  text-underline-position: auto;
+}
+
+div.f {
+  text-decoration: underline;
+  text-underline-position: under;
+}

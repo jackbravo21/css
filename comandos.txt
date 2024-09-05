@@ -1,0 +1,133 @@
+Inside that directory, you can run several commands:
+
+- installar react globalmente:
+npm install -g create-react-app
+
+- Criar projeto:
+create-react-app nome_do_projeto
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files       
+    and scripts into the app directory. If you do this, you can’t go back!     
+
+We suggest that you begin by typing:
+
+  cd mybutton
+  npm start
+
+Happy hacking!
+
+==================================================
+
+CSS:
+
+As propriedades para as bordas, definem as características das quatro bordas de um elemento HTML que são as listadas a seguir:
+
+ border-width:..........define a espessura da borda
+ border-style:..........define o estilo da borda
+ border-color:..........define a cor da borda
+
+ border-top-width:......define a espessura da borda superior
+ border-top-style:......define o estilo da borda superior
+ border-top-color:......define a cor da borda superior
+
+ border-right-width:....define a espessura da borda direita
+ border-right-style:....define a estilo da borda direita
+ border-right-color:....define a cor da borda direita
+
+ border-bottom-width:...define a espessura da borda inferior
+ border-bottom-style:...define o estilo da borda inferior
+ border-bottom-color:...define a cor da borda inferior
+
+ border-left-width:.....define a espessura da borda esquerda
+ border-left-style:.....define o estilo da borda esquerda
+ border-left-color:.....define a cor da borda esquerda
+
+ border-top:............maneira abreviada para todas   
+	                      as propriedades da borda superior
+ border-right:..........maneira abreviada para todas
+                        as propriedades da borda direita
+	 
+ border-bottom:.........maneira abreviada para todas
+                        as propriedades da borda inferior
+	
+ border-left:...........maneira abreviada para todas
+                        as propriedades da borda esquerda
+	
+ border:................maneira abreviada para todas
+                        as quatro bordas
+
+
+color:
+código hexadecimal: #ffc6d9
+código rgb: rgb(255,235,0)
+código rgba: rgb(255,235,0, 0.7)
+código hsl: hsl(210,100%,40%)
+código hsla: hsla(155,80%,35%,0.4)
+palavra-chave: red, blue, green...etc
+transparente: transparent
+
+style:
+none: nenhuma borda
+hidden: equivalente a none
+dotted: borda pontilhada
+dashed: borda tracejada
+solid: borda contínua
+double: borda dupla
+groove: borda entalhada
+ridge: borda em ressalto
+inset: borda em baixo relevo
+outset: borda em alto relevo
+
+width:
+thin: borda fina
+medium: borda média
+thick: borda grossa
+length: unidade de medida CSS (px, pt, em, cm, ...)
+
+==================================================
+
+
+Evento onclick:
+
+Chame uma função quando um botão é clicado:
+
+<button onclick="myFunction()">Click me</button>
+Mais exemplos abaixo.
+
+Descrição:
+O evento ocorre quando o usuário clica em um elemento HTML.onclick
+
+Eventos do mouse:
+Event	Occurs When
+onclick	The user clicks on an element
+oncontextmenu	The user right-clicks on an element
+ondblclick	The user double-clicks on an element
+onmousedown	A mouse button is pressed over an element
+onmouseenter	The pointer is moved onto an element
+onmouseleave	The pointer is moved out of an element
+onmousemove	The pointer is moving over an element
+onmouseout	The mouse pointer moves out of an element
+onmouseover	The mouse pointer is moved over an element
+onmouseup	The mouse button is released over an element
+
+
+onBlur	remove o foco do elemento
+onChange	muda o valor do elemento
+onClick	o elemento é clicado pelo usuário
+onFocus	o elemento é focado
+onKeyPress	o usuário pressiona uma tecla sobre o elemento
+onLoad	carrega o elemento por completo
+onMouseOver	define ação quando o usuário passa o mouse sobre o elemento
+onMouseOut	define ação quando o usuário retira o mouse sobre o elemento
+onSubmit	define ação ao enviar um formulário
+

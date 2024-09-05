@@ -1,0 +1,225 @@
+body{
+    background-color: lightblue;
+}
+
+
+/* Exemplo 1 */
+
+table.ex1 {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td.ex1, th.ex1 {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr.ex1:nth-child(even) {
+    background-color: #ffffff;
+  }
+
+/* Exemplo2 2 */
+
+table.ex2, th.ex2, td.ex2 {
+    border:1px solid black;
+}
+
+/* Exemplo 3: */ 
+
+
+
+/* Exemplo 4: */ 
+
+table.ex4, th.ex4, td.ex4 {
+   border:1px solid black;
+}
+
+/* Exemplo 5: */ 
+
+table.ex5, th.ex5, td.ex5 {
+   border:1px solid black;
+}
+
+/* Exemplo 6: */ 
+
+table.ex6, th.ex6, td.ex6 {
+  border: 1px solid black;
+}
+
+/* Exemplo 7: */ 
+
+table.ex7, th.ex7, td.ex7 {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+/* Exemplo 8: */ 
+
+table.ex8, th.ex8, td.ex8 {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th.ex8, td.ex8 {
+  background-color: #96D4D4;
+}
+
+/* Exemplo 9: */ 
+
+table.ex9, th.ex9, td.ex9 {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* Exemplo 10: */ 
+
+th.ex10, td.ex10 {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+/* Exemplo 11: */ 
+
+th.ex11, td.ex11 {
+  border-style: dotted;
+}
+
+/* Exemplo 12: */ 
+
+th.ex12, td.ex12 {
+  border-style:solid;
+  border-color: #96D4D4;
+}
+
+/* Exemplo 13: */
+
+table.ex13, th.ex13, td.ex13 {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
+/* Exemplo 14: */
+
+table.ex14, th.ex14, td.ex14 {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+
+/* Exemplo 15 */
+
+table.ex15, th.ex15, td.ex15 {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th.ex15, td.ex15 {
+    padding: 15px;
+  }
+
+/* Exemplo 16 */
+
+table.ex16, th.ex16, td.ex16 {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th.ex16, td.ex16 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+  }
+
+/* Exemplo 17 */
+
+table.ex17, th.ex17, td.ex17 {
+    border: 1px solid black;
+  }
+  table.ex17 {
+    border-spacing: 30px;
+  }
+
+/* Exemplo 18 */
+
+table.ex18, th.ex18, td.ex18 {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+/* Exemplo 19 */
+
+table.ex19, th.ex19, td.ex19 {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+/* Exemplo 20 */
+
+table.ex20 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th.ex20, td.ex20 {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr.ex20:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+/* Exemplo 21 */
+
+table.ex21, th.ex21, td.ex21 {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  th.ex21:nth-child(even),td.ex21:nth-child(even) {
+    background-color: #D6EEEE;
+  }
+
+/* Exemplo 22 */
+
+table.ex22, th.ex22, td.ex22 {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  tr.ex22:nth-child(even) {
+    background-color: rgba(230, 26, 26, 0.4);
+  }
+  
+  th.ex22:nth-child(even),td.ex22:nth-child(even) {
+    background-color: rgba(0, 140, 255, 0.4);
+  }
+
+/* Exemplo 23 */
+
+table.ex23 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tr.ex23 {
+    border-bottom: 1px solid #000000;
+  }
+
+/* Exemplo 24 */
+
+table.ex24 {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th.ex24, td.ex24 {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #DDD;
+  }
+
+  tr.ex24:hover {
+  background-color: #00b7ff;
+  }
