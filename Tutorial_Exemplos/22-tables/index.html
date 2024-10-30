@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen" />
+</head>
+<body>
+
+    <h1>Exemplo 1:</h1>
+
+<p>As tabelas HTML permitem que os desenvolvedores da Web organizem dados em linhas e Colunas.</p>
+
+    <table class="ex1">
+        <tr class="ex1">
+          <th class="ex1">Company</th>
+          <th class="ex1">Contact</th>
+          <th class="ex1">Country</th>
+        </tr>
+        <tr class="ex1">
+          <td class="ex1">Alfreds Futterkiste</td>
+          <td class="ex1">Maria Anders</td>
+          <td class="ex1">Germany</td>
+        </tr>
+        <tr class="ex1">
+          <td class="ex1">Centro comercial Moctezuma</td>
+          <td class="ex1">Francisco Chang</td>
+          <td class="ex1">Mexico</td>
+        </tr class="ex1">
+        <tr class="ex1">
+          <td class="ex1">Ernst Handel</td>
+          <td class="ex1">Roland Mendel</td>
+          <td class="ex1">Austria</td>
+        </tr>
+        <tr class="ex1">
+          <td class="ex1">Island Trading</td>
+          <td class="ex1">Helen Bennett</td>
+          <td class="ex1">UK</td>
+        </tr>
+        <tr class="ex1">
+          <td class="ex1">Laughing Bacchus Winecellars</td>
+          <td class="ex1">Yoshi Tannamuri</td>
+          <td class="ex1">Canada</td>
+        </tr>
+        <tr class="ex1">
+          <td class="ex1">Magazzini Alimentari Riuniti</td>
+          <td class="ex1">Giovanni Rovelli</td>
+          <td class="ex1">Italy</td>
+        </tr>
+      </table>
+
+<br>
+
+<hr>
+
+      <h1>Exemplo 2 (bordas solidas "border"):</h1>
+
+        <p>Uma tabela em HTML consiste em células de tabela dentro de linhas e colunas.</p>
+
+        <body>
+        
+        <h2>A basic HTML table</h2>
+        
+        <table class="ex2" style="width:100%">
+          <tr>
+            <th class="ex2">Company</th>
+            <th class="ex2">Contact</th>
+            <th class="ex2">Country</th>
+          </tr>
+          <tr>
+            <td class="ex2">Alfreds Futterkiste</td>
+            <td class="ex2">Maria Anders</td>
+            <td class="ex2">Germany</td>
+          </tr>
+          <tr>
+            <td class="ex2">Centro comercial Moctezuma</td>
+            <td class="ex2">Francisco Chang</td>
+            <td class="ex2">Mexico</td>
+          </tr>
+        </table>
+
+        <p>To understand the example better, we have added borders to the table.</p>
+
+<br>
+
+<hr>
+
+        <h1>Exemplo 3 (celulas):</h1>
+
+        <p>Cada célula da tabela é definida por uma e uma marca "td".</p>
+
+        <h2>TD elements define table cells</h2>
+
+        <table style="width:100%">
+        <tr>
+            <td>Emil</td>
+            <td>Tobias</td>
+            <td>Linus</td>
+        </tr>
+        </table>
+
+<br>
+
+<hr>
+
+    <h1>Exemplo 4 (linhas):</h1>
+
+    <p>Cada linha da tabela começa com um e termina com uma tag "tr".</p>
+
+    <body>
+    
+    <h2>TR elements define table rows</h2>
+    
+    <table class="ex4" style="width:100%">
+      <tr>
+        <td class="ex4">Emil</td>
+        <td class="ex4">Tobias</td>
+        <td class="ex4">Linus</td>
+      </tr>
+      <tr>
+        <td class="ex4">16</td>
+        <td class="ex4">14</td>
+        <td class="ex4">10</td>
+      </tr>
+    </table>
+    
+    <p>To understand the example better, we have added borders to the table.</p>
+
+<br>
+
+<hr>
+
+    <h1>Exemplo 5 (Cabeçalhos de tabela):</h1>
+
+    <p>Às vezes, você deseja que suas células sejam células de cabeçalho de tabela. Nesses casos, use a tag em vez da tag: "th" e "td".</td></p>
+    <p>"th" significa cabeçalho de tabela (table head).</p>
+
+    <body>
+    
+    <h2>TH elements define table headers</h2>
+    
+    <table class="ex5" style="width:100%">
+      <tr>
+        <th class="ex5">Person 1</th>
+        <th class="ex5">Person 2</th>
+        <th class="ex5">Person 3</th>
+      </tr>
+      <tr>
+        <td class="ex5">Emil</td>
+        <td class="ex5">Tobias</td>
+        <td class="ex5">Linus</td>
+      </tr>
+      <tr>
+        <td class="ex5">16</td>
+        <td class="ex5">14</td>
+        <td class="ex5">10</td>
+      </tr>
+    </table>
+    
+    <p>To understand the example better, we have added borders to the table.</p>
+    
+    <br>
+
+<hr>
+
+    <br>
+
+    <h1>Exemplo 6:</h1>
+    <h2>Como adicionar uma borda:</h2>
+    <p>Para adicionar uma borda, use a propriedade CSS em , e elementos: border,table, th, td</p>
+
+        <body>
+        
+        <h2>Table With Border</h2>
+        
+        <p>Use the CSS border property to add a border to the table.</p>
+        
+        <table class="ex6" style="width:100%">
+          <tr>
+            <th class="ex6">Firstname</th>
+            <th class="ex6">Lastname</th> 
+            <th class="ex6">Age</th>
+          </tr>
+          <tr>
+            <td class="ex6">Jill</td>
+            <td class="ex6">Smith</td>
+            <td class="ex6">50</td>
+          </tr>
+          <tr>
+            <td class="ex6">Eve</td>
+            <td class="ex6">Jackson</td>
+            <td class="ex6">94</td>
+          </tr>
+          <tr>
+            <td class="ex6">John</td>
+            <td class="ex6">Doe</td>
+            <td class="ex6">80</td>
+          </tr>
+        </table>
+        
+        <br>
+        <br>
+<hr>
+        
+        <br>
+
+        <h1>Exemplo 7:</h1>        
+        <h1>Bordas de tabela recolhidas:</h1>
+        <p1>Para evitar ter bordas duplas como no exemplo acima, defina a propriedade CSS como: border-collapse, collapse.</p1>
+        <p1>Isso fará com que as fronteiras colapsem em uma única fronteira:</p1>
+
+            <body>
+            
+            <h2>Collapsed Borders</h2>
+            <p>If you want the borders to collapse into one border, add the CSS border-collapse property.</p>
+            
+            <table class="ex7" style="width:100%">
+              <tr>
+                <th class="ex7">Firstname</th>
+                <th class="ex7">Lastname</th> 
+                <th class="ex7">Age</th>
+              </tr>
+              <tr>
+                <td class="ex7">Jill</td>
+                <td class="ex7">Smith</td>
+                <td class="ex7">50</td>
+              </tr>
+              <tr>
+                <td class="ex7">Eve</td>
+                <td class="ex7">Jackson</td>
+                <td class="ex7">94</td>
+              </tr>
+              <tr>
+                <td class="ex7">John</td>
+                <td class="ex7">Doe</td>
+                <td class="ex7">80</td>
+              </tr>
+            </table>
+
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 8:</h1>        
+        <h1>Bordas da Tabela de Estilo:</h1>
+        <p1>Se você definir uma cor de plano de fundo de cada célula, e dê à borda uma cor branca (a mesma que o plano de fundo do documento), Você tem a impressão de uma borda invisível:</p1>
+    
+            <body>
+            
+            <h2>Table With Invisible Borders</h2>
+            
+            <p>Style the table with white borders and a background color of the cells to make the impression of invisible borders.</p>
+            
+            <table class="ex8" style="width:100%">
+              <tr>
+                <th class="ex8">Firstname</th>
+                <th class="ex8">Lastname</th> 
+                <th class="ex8">Age</th>
+              </tr>
+              <tr>
+                <td class="ex8">Jill</td>
+                <td class="ex8">Smith</td>
+                <td class="ex8">50</td>
+              </tr>
+              <tr>
+                <td class="ex8">Eve</td>
+                <td class="ex8">Jackson</td>
+                <td class="ex8">94</td>
+              </tr>
+              <tr>
+                <td class="ex8">John</td>
+                <td class="ex8">Doe</td>
+                <td class="ex8">80</td>
+              </tr>
+            </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 9:</h1>        
+        <h1>Bordas da Mesa Redonda:</h1>
+        <p>Com a propriedade, as bordas ficam arredondadas: "border-radius".</p>
+
+            <body>
+            
+            <h2>Table With Rounded Borders</h2>
+            
+            <p>Use the CSS border-radius property to add rounded corners to the borders.</p>
+            
+            <table class="ex9" style="width:100%">
+              <tr>
+                <th class="ex9">Firstname</th>
+                <th class="ex9">Lastname</th> 
+                <th class="ex9">Age</th>
+              </tr>
+              <tr>
+                <td class="ex9">Jill</td>
+                <td class="ex9">Smith</td>
+                <td class="ex9">50</td>
+              </tr>
+              <tr>
+                <td class="ex9">Eve</td>
+                <td class="ex9">Jackson</td>
+                <td class="ex9">94</td>
+              </tr>
+              <tr>
+                <td class="ex9">John</td>
+                <td class="ex9">Doe</td>
+                <td class="ex9">80</td>
+              </tr>
+            </table>
+            
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 10:</h1>
+        <p>Ignore a borda ao redor da tabela deixando de fora do seletor css: "table".</p>
+
+            <body>
+            
+            <h2>Table With Rounded Borders</h2>
+            
+            <p>Use the CSS border-radius property to add rounded corners to the table cells.</p>
+            
+            <table class="ex10" style="width:100%">
+              <tr>
+                <th class="ex10">Firstname</th>
+                <th class="ex10">Lastname</th> 
+                <th class="ex10">Age</th>
+              </tr>
+              <tr>
+                <td class="ex10">Jill</td>
+                <td class="ex10">Smith</td>
+                <td class="ex10">50</td>
+              </tr>
+              <tr>
+                <td class="ex10">Eve</td>
+                <td class="ex10">Jackson</td>
+                <td class="ex10">94</td>
+              </tr>
+              <tr>
+                <td class="ex10">John</td>
+                <td class="ex10">Doe</td>
+                <td class="ex10">80</td>
+              </tr>
+            </table>
+            
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 11:</h1>
+        <h1>Bordas pontilhadas da tabela:</h1>
+        <p>Com a propriedade, você pode definir o aparência da borda: "border-style".</p>
+
+            <body>
+            
+            <h2>Table With Dotted Borders</h2>
+            
+            <p>Use the CSS border-style property to set the style of the borders.</p>
+            
+            <table class="ex11" style="width:100%">
+              <tr>
+                <th class="ex11">Firstname</th>
+                <th class="ex11">Lastname</th> 
+                <th class="ex11">Age</th>
+              </tr>
+              <tr>
+                <td class="ex11">Jill</td>
+                <td class="ex11">Smith</td>
+                <td class="ex11">50</td>
+              </tr>
+              <tr>
+                <td class="ex11">Eve</td>
+                <td class="ex11">Jackson</td>
+                <td class="ex11">94</td>
+              </tr>
+              <tr>
+                <td class="ex11">John</td>
+                <td class="ex11">Doe</td>
+                <td class="ex11">80</td>
+              </tr>
+            </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 12:</h1>
+        <h1>Cor da borda:</h1>
+        <p>Com a propriedade, você pode definir a cor da borda: "border-color".</p>
+
+            </head>
+            <body>
+            
+            <h2>Table With Border Color</h2>
+            
+            <p>Use the CSS border-color property to set the color of the borders.</p>
+            
+            <table class="ex12" style="width:100%">
+              <tr>
+                <th class="ex12">Firstname</th>
+                <th class="ex12">Lastname</th> 
+                <th class="ex12">Age</th>
+              </tr>
+              <tr>
+                <td class="ex12">Jill</td>
+                <td class="ex12">Smith</td>
+                <td class="ex12">50</td>
+              </tr>
+              <tr>
+                <td class="ex12">Eve</td>
+                <td class="ex12">Jackson</td>
+                <td class="ex12">94</td>
+              </tr>
+              <tr>
+                <td class="ex12">John</td>
+                <td class="ex12">Doe</td>
+                <td class="ex12">80</td>
+              </tr>
+            </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 13:</h1>
+        <h1>Largura da coluna da tabela HTML:</h1>
+        <p>Para definir o tamanho de uma coluna específica, adicione o atributo em um elemento ou: style.</p>
+
+        <h2>Set the first column to 70% of the table width</h2>
+
+        <table class="ex13" style="width:100%">
+        <tr>
+            <th class="ex13" style="width:70%">Firstname</th>
+            <th class="ex13">Lastname</th> 
+            <th class="ex13">Age</th>
+        </tr>
+        <tr>
+            <td class="ex13">Jill</td>
+            <td class="ex13">Smith</td>
+            <td class="ex13">50</td>
+        </tr>
+        <tr>
+            <td class="ex13">Eve</td>
+            <td class="ex13">Jackson</td>
+            <td class="ex13">94</td>
+        </tr>
+        <tr>
+            <td class="ex13">John</td>
+            <td class="ex13">Doe</td>
+            <td class="ex13">80</td>
+        </tr>
+        </table>
+ 
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 14:</h1>
+        <h1>Altura da linha da tabela HTML:</h1>
+        <p>Para definir a altura de uma linha específica, adicione o atributo em um elemento de linha da tabela: style.</p>
+
+        <table class="ex14" style="width:100%">
+            <tr>
+              <th class="ex14">Firstname</th>
+              <th class="ex14">Lastname</th> 
+              <th class="ex14">Age</th>
+            </tr>
+            <tr style="height:200px">
+              <td class="ex14">Jill</td>
+              <td class="ex14">Smith</td>
+              <td class="ex14">50</td>
+            </tr>
+            <tr>
+              <td class="ex14">Eve</td>
+              <td class="ex14">Jackson</td>
+              <td class="ex14">94</td>
+            </tr>
+            <tr>
+              <td class="ex14">John</td>
+              <td class="ex14">Doe</td>
+              <td class="ex14">80</td>
+            </tr>
+          </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 15:</h1>
+        <h1>Tabela HTML - preenchimento de células:</h1>
+        <p>Para adicionar preenchimento nas células da tabela, use a propriedade CSS: "padding".</p>
+
+        <h2>Cellpadding</h2>
+        <p>Cell padding specifies the space between the cell content and its borders.</p>
+
+        <table class="ex15" style="width:100%">
+        <tr>
+            <th class="ex15">Firstname</th>
+            <th class="ex15">Lastname</th> 
+            <th class="ex15">Age</th>
+        </tr>
+        <tr>
+            <td class="ex15">Jill</td>
+            <td class="ex15">Smith</td>
+            <td class="ex15">50</td>
+        </tr>
+        <tr>
+            <td class="ex15">Eve</td>
+            <td class="ex15">Jackson</td>
+            <td class="ex15">94</td>
+        </tr>
+        <tr>
+            <td class="ex15">John</td>
+            <td class="ex15">Doe</td>
+            <td class="ex15">80</td>
+        </tr>
+        </table>
+        
+        <p><strong>Tip:</strong> Try to change the padding to 5px.</p>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 16:</h1>
+        <h2>Cellpadding - top - bottom - left - right </h2>
+        <p>We can specify different padding for all fours sides of the cell content.</p>
+
+        <table class="ex16" style="width:100%">
+        <tr>
+            <th class="ex16">Firstname</th>
+            <th class="ex16">Lastname</th> 
+            <th class="ex16">Age</th>
+        </tr>
+        <tr>
+            <td class="ex16">Jill</td>
+            <td class="ex16">Smith</td>
+            <td class="ex16">50</td>
+        </tr>
+        <tr>
+            <td class="ex16">Eve</td>
+            <td class="ex16">Jackson</td>
+            <td class="ex16">94</td>
+        </tr>
+        <tr>
+            <td class="ex16">John</td>
+            <td class="ex16">Doe</td>
+            <td class="ex16">80</td>
+        </tr>
+        </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 17:</h1>
+        <h2>Cellspacing</h2>
+        <p>Change the space between the cells with the border-spacing property.</p>
+        
+        <table class="ex17" style="width:100%">
+          <tr>
+            <th class="ex17">Firstname</th>
+            <th class="ex17">Lastname</th> 
+            <th class="ex17">Age</th>
+          </tr>
+          <tr>
+            <td class="ex17">Jill</td>
+            <td class="ex17">Smith</td>
+            <td class="ex17">50</td>
+          </tr>
+          <tr>
+            <td class="ex17">Eve</td>
+            <td class="ex17">Jackson</td>
+            <td class="ex17">94</td>
+          </tr>
+          <tr>
+            <td class="ex17">John</td>
+            <td class="ex17">Doe</td>
+            <td class="ex17">80</td>
+          </tr>
+        </table>        
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 18:</h1>
+        <h1>Colspan:</h1>
+
+        <h2>Cell that spans two columns (juntou uma celula com 2)</h2>
+        <p>To make a cell span more than one column, use the colspan attribute.</p>
+
+        <table class="ex18" style="width:100%">
+        <tr>
+            <th class="ex18" colspan="2">Name</th>
+            <th class="ex18">Age</th>
+        </tr>
+        <tr>
+            <td class="ex18">Jill</td>
+            <td class="ex18">Smith</td>
+            <td class="ex18">43</td>
+        </tr>
+        <tr>
+            <td class="ex18">Eve</td>
+            <td class="ex18">Jackson</td>
+            <td class="ex18">57</td>
+        </tr>
+        </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 19:</h1>
+        <h2>Cell that spans two rows</h2>
+        <p>To make a cell span more than one row, use the rowspan attribute.</p>
+
+        <table class="ex19" style="width:100%">
+        <tr>
+            <th class="ex19">Name</th>
+            <td class="ex19">Jill</td>
+        </tr>
+        <tr>
+            <th class="ex19" rowspan="2">Phone</th>
+            <td class="ex19">555-1234</td>
+        </tr>
+        <tr>
+            <td class="ex19">555-8745</td>
+        </tr>
+        </table>
+
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 20:</h1>
+        <h1>Zebra Stripes Table:</h1>
+        <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+        
+        <table class="ex20">
+          <tr class="ex20">
+          <th class="ex20">First Name</th>
+          <th class="ex20">Last Name</th>
+          <th class="ex20">Points</th>
+          </tr>
+          <tr class="ex20">
+          <td class="ex20">Peter</td>
+          <td class="ex20">Griffin</td>
+          <td class="ex20">$100</td>
+          </tr>
+          <tr class="ex20">
+          <td class="ex20">Lois</td>
+          <td class="ex20">Griffin</td>
+          <td class="ex20">$150</td>
+          </tr>
+          <tr class="ex20">
+          <td class="ex20">Joe</td>
+          <td class="ex20">Swanson</td>
+          <td class="ex20">$300</td>
+          </tr>
+          <tr class="ex20">
+          <td class="ex20">Cleveland</td>
+          <td class="ex20">Brown</td>
+          <td class="ex20">$250</td>
+          </tr>
+        </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 21:</h1>
+        <h1>Listras Zebradas Verticais:</h1>
+
+        <h2>Striped Table</h2>
+        <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+        <table class="ex21" style="width:100%">
+        <tr>
+            <th class="ex21">MON</th>
+            <th class="ex21">TUE</th>
+            <th class="ex21">WED</th>
+            <th class="ex21">THU</th>
+            <th class="ex21">FRI</th>
+            <th class="ex21">SAT</th>
+            <th class="ex21">SUN</th>
+        </tr>
+        <tr>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+        </tr>
+        <tr>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+        </tr>
+        <tr>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+        </tr>
+        <tr>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+            <td class="ex21"> </td>
+        </tr>
+        </table>
+
+        <p>Nota: Coloque o seletor em ambos e elementos se você quiser ter o estilo em ambos os cabeçalhos e tabela regular Células: nth-child() th td.</p>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 22:</h1>
+        <h1>Listras zebradas verticais e horizontais:</h1>
+        <h2>Striped Table</h2>
+        <p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+        <table class="ex22" style="width:100%">
+        <tr class="ex22">
+            <th class="ex22">MON</th>
+            <th class="ex22">TUE</th>
+            <th class="ex22">WED</th>
+            <th class="ex22">THU</th>
+            <th class="ex22">FRI</th>
+            <th class="ex22">SAT</th>
+            <th class="ex22">SUN</th>
+        </tr>
+        <tr class="ex22">
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+        </tr>
+        <tr class="ex22">
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+        </tr>
+        <tr class="ex22">
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+        </tr>
+        <tr>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+            <td class="ex22"> </td>
+        </tr>
+        </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 23:</h1>
+        <h2>Bordered Table Dividers</h2>
+        <p>Add the border-bottom property to the tr elements for horizontal dividers:</p>
+
+        <table class="ex23">
+        <tr class="ex23">
+            <th>Firstname</th>
+            <th>Lastname</th>
+        <th>Savings</th>
+        </tr class="ex23">
+        <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+            <td>$100</td>
+        </tr>
+        <tr class="ex23">
+            <td>Lois</td>
+            <td>Griffin</td>
+            <td>$150</td>
+        </tr>
+        <tr class="ex23">
+            <td>Joe</td>
+            <td>Swanson</td>
+            <td>$300</td>
+        </tr>
+        <tr class="ex23">
+            <td>Cleveland</td>
+            <td>Brown</td>
+            <td>$250</td>
+        </tr>
+        </table>
+
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+        <h1>Exemplo 24:</h1>
+        <h2>Hoverable Table</h2>
+        <p>Move the mouse over the table rows to see the effect.</p>
+
+        <table class="ex24">
+        <tr class="ex24">
+            <th class="ex24">First Name</th>
+            <th class="ex24">Last Name</th>
+            <th class="ex24">Points</th>
+        </tr>
+        <tr class="ex24">
+            <td class="ex24">Peter</td>
+            <td class="ex24">Griffin</td>
+            <td class="ex24">$100</td>
+        </tr>
+        <tr class="ex24">
+            <td class="ex24">Lois</td>
+            <td class="ex24">Griffin</td>
+            <td class="ex24">$150</td>
+        </tr>
+        <tr class="ex24">
+            <td class="ex24">Joe</td>
+            <td class="ex24">Swanson</td>
+            <td class="ex24">$300</td>
+        </tr>
+        <tr class="ex24">
+            <td class="ex24">Cleveland</td>
+            <td class="ex24">Brown</td>
+            <td class="ex24">$250</td>
+        </tr>
+        </table>
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+
+        <br>
+        <br>
+<hr>
+        <br>
+
+</body>
+</html>

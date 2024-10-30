@@ -1,0 +1,84 @@
+body{
+    background-color: lightblue;
+}
+
+h1{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+h2{
+  opacity: 0.3;
+  color: rebeccapurple;
+  text-align: center;
+}
+
+h3{
+  opacity: 0.1;
+  color: rebeccapurple;
+  text-align: center;
+}
+
+div {
+    background-color: lightblue;
+    opacity: 0.3;
+  }
+
+p{
+    color: red;
+    
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* por id */
+#para1{
+    text-align: center;
+    color: rgb(17, 0, 255);
+}
+
+/* por classe */
+.tipo1{
+    text-align: center;
+    color: blueviolet;
+}
+
+/* apenas elementos especificos sao afetados por esta classe */
+p.tipo2{
+    text-align: left;
+    color: blue;
+}
+
+/* seletor universal (*) */
+* {
+    text-align: center;
+}
+
+/*
+
+Quando temos varios agrupamentos com os mesmos requisitos:
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+Podemos agrupar assim, todos de uma vez:
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+
+*/

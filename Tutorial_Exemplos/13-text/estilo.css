@@ -1,0 +1,43 @@
+body{
+    background-color: lightblue;
+}
+
+div.ex1 {
+  border: 1px solid gray;
+  padding: 8px;
+}
+
+h1.ex1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #4CAF50;
+}
+
+p.ex1 {
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+}
+
+a.ex1 {
+  text-decoration: none;
+  color: #008CBA;
+}
+
+/* ex2 */
+
+h1.ex2 {
+  color: green;
+}
+
+/* ex3 */
+
+h1.ex3 {
+  background-color: black;
+  color: white;
+}
+
+div.ex3 {
+  background-color: blue;
+  color: white;
+}

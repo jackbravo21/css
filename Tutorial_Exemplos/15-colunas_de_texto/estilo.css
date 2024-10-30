@@ -1,0 +1,57 @@
+body{
+  background-color: blanchedalmond;
+}
+
+.newspaper {
+  column-count: 3;
+}
+
+.newspaper2{
+  column-count: 5;
+}
+
+.newspaper3 {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+.newspaper4 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+}
+
+.newspaper5 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+}
+
+.newspaper6 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: lightblue;
+}
+
+.newspaper7 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+}
+
+.newspaper8 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 1px solid lightblue;
+}
+
+.h2_8 {
+  column-span: all;
+}
+
+.newspaper9 {
+  column-width: 100px;
+}

@@ -1,0 +1,462 @@
+
+body {
+    background-color: rgb(0, 183, 255);
+}
+
+/* Todos os tipos de bordas: */
+
+p.teste {
+    background-color: blueviolet;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+/* Demonstração das diferentes larguras de borda: */
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+  }
+  
+  p.two {
+    border-style: solid;
+    border-width: medium;
+  }
+  
+  p.three {
+    border-style: dotted;
+    border-width: 2px;
+  }
+  
+  p.four {
+    border-style: dotted;
+    border-width: thick;
+  }
+
+/* Larguras laterais específicas: */
+
+  p.one1 {
+    border-style: solid;
+    border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+  }
+  
+  p.two2 {
+    border-style: solid;
+    border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+  }
+  
+  p.three3 {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+  }
+
+  p.four4 {
+    border-style: solid;
+    border-left-width: 15px;
+  }
+
+  p.five5 {
+    border-style: solid;
+    border-top-width: 25px;
+  }
+
+  p.six6 {
+    border-style: solid;
+    border-bottom-width: 25px;
+  }
+
+  /* Largura e grossura das bordas com diferentes cores: */
+
+  p.one11 {
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+  }
+  
+  p.two22 {
+    border-style: solid;
+    border-color: darkblue;
+    border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+  }
+  
+  p.three33 {
+    border-style: solid;
+    border-color: brown;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+  }
+
+
+  /* Bordas com estilos e cores */
+
+  p.one-color {
+    border-style: solid;
+    border-color: red;
+  }
+  
+  p.two-color {
+    border-style: solid;
+    border-color: green;
+  }
+  
+  p.three-color {
+    border-style: dotted;
+    border-color: blue;
+  }
+
+  /* Cores laterais especificas individuais e diferentes */
+
+  p.one-4colors {
+    border-style: solid;
+    border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+  }
+
+  p.one-4colors-bolt {
+    border-style: solid;
+    border-color: red green blue yellow; /* red top, green right, blue bottom and yellow left */
+    border-width: 20px 20px; /* 20px top and bottom, 5px on the sides */
+  }
+
+  p.one-color-border {
+    border-style: solid;
+    border-color: #0000ff;
+  }
+  
+  p.two-color-border {
+    border-style: solid;
+    border-color: #ff0000 #0000ff;
+  }
+  
+  p.three-color-border {
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff;
+  }
+  
+  p.four-color-border {
+    border-style: solid;
+    border-color: #ff0000 #00ff00 #0000ff rgb(250,0,255);
+  }
+
+  /* Cada lado das bordas com um estilo individual */
+
+  p.bordas-lados-individuais-1 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+  }
+
+  p.bordas-lados-individuais-2 {
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-width: thick;
+  }
+
+  p.bordas-lados-individuais-3 {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: solid;
+    border-left-style: dotted;
+    border-width: thick;
+  }
+
+  p.bordas-lados-individuais-4 {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-left-style: dashed;
+  }
+
+  /* Propriedade Taquigráfica (especificar todas as propriedades de borda individuais) */
+
+  p.border-taquigrafica {
+    border: 5px solid red;
+  }
+
+  p.border-left {
+    border-left: 6px solid red;
+  }
+  
+  p.border-top {
+    border-top: 6px solid red;
+  }
+  
+  p.border-right {
+    border-right: 6px solid red;
+  }
+  
+  p.border-bottom {
+    border-bottom: 6px solid red;
+  }
+
+  /* ------------------------------------------- */
+
+  /* Estilo do jogo da velha: */
+  
+.board-collum-1{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-2{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-3{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-4{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-5{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-6{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    border-top: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-7{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-8{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+  
+  .board-collum-9{
+    background-color: #282c34;
+    min-width: 50px;
+    min-height: 50px;
+    /* width: 10%; */
+    border-left: 5px solid black;
+    border-top: 5px solid black;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  /* ------------------------------------------- */
+
+  /* Bordas arredondadas: */
+
+  p.border-redonda1 {
+    border: 2px solid red;
+    padding: 5px;
+  }
+  
+  p.border-redonda2 {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  p.border-redonda3 {
+    border: 2px solid red;
+    border-radius: 8px;
+    padding: 5px;
+  }
+  
+  p.border-redonda4 {
+    border: 2px solid red;
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+/*  Normal border, Round border, Rounder border, Roundest border.
+
+/* Todos os estilos de Bordas: */
+
+p.none {border-bottom-style: none;}
+p.dotted {border-bottom-style: dotted;}
+p.dashed {border-bottom-style: dashed;}
+p.solid {border-bottom-style: solid;}
+p.double {border-bottom-style: double;}
+p.groove {border-bottom-style: groove;}
+p.ridge {border-bottom-style: ridge;}
+p.inset {border-bottom-style: inset;}
+p.outset {border-bottom-style: outset;}
+
+/* BORDAS REDONDAS: */
+
+  #box1{
+    width:300px;              /* definimos a largura do box*/	
+    height:100px;             /* definimos a altura do box */
+    background-color:#666;  /* definimos a cor de fundo do box */
+    border-radius: 10px;      /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;       /* alinha o texto no centro */
+    }
+
+  #box2{
+    width:300px;                  /* definimos a largura do box*/
+    height:100px;                 /* definimos a altura do box */
+    background-color:#6495ed;   /* definimos a cor de fundo do box */
+    border-radius: 10px 20px;     /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;           /* alinha o texto no centro */
+    }
+
+  #box3{
+    width:300px;                        /* definimos a largura do box*/
+    height:100px;                       /* definimos a altura do box */
+    background-color:#ffee00;         /* definimos a cor de fundo do box */
+    border-radius: 10px 20px 30px;      /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                 /* alinha o texto no centro */
+    }
+
+  #box4{
+    width:300px;                            /* definimos a largura do box*/
+    height:100px;                           /* definimos a altura do box */
+    background-color:#8fed64;             /* definimos a cor de fundo do box */
+    border-radius: 10px 20px 30px 40px;     /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                     /* alinha o texto no centro */
+    }
+
+  #box5{
+    width: 100px;                            /* definimos a largura do box*/
+    height: 100px;                           /* definimos a altura do box */
+    background-color:#6495ed;             /* definimos a cor de fundo do box */
+    border-radius: 80px 80px 80px 80px;     /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                     /* alinha o texto no centro */
+    }
+  
+  #box6{
+    width: 300px;                           /* definimos a largura do box*/
+    height: 100px;                          /* definimos a altura do box */
+    background-color:#6495ed;             /* definimos a cor de fundo do box */
+    border-radius: 50px 50px 50px 50px;     /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                     /* alinha o texto no centro */
+    }
+
+  #box7{
+    width: 300px;                            /* definimos a largura do box*/
+    height: 100px;                           /* definimos a altura do box */
+    background-color:#6495ed;             /* definimos a cor de fundo do box */
+    border-radius: 30px 30px 0px 0px;       /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                     /* alinha o texto no centro */
+    }   
+
+  #box8{
+    border: 5px solid red;                /* define uma cor de borda */
+
+    width: 300px;                           /* definimos a largura do box*/
+    height: 100px;                          /* definimos a altura do box */
+    background-color:#6495ed;             /* definimos a cor de fundo do box */
+    border-radius: 0px 0px 30px 30px;       /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                     /* alinha o texto no centro */
+    }    
+
+  #box9{
+    border: 5px solid red;                /* define uma cor de borda */
+    border-width: 20px 20px;                /* grossura das bordas */
+
+    width: 300px;                           /* definimos a largura do box*/
+    height: 100px;                          /* definimos a altura do box */
+    background-color:#6495ed;             /* definimos a cor de fundo do box */
+    border-radius: 0px 0px 30px 30px;       /* definimos o quão arredondado irá ficar nosso box */
+    text-align: center;                     /* alinha o texto no centro */
+    }    

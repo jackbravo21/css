@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(193, 201, 206);
+}
+
+h1.center{
+  text-align: center;
+}
+
+div.margin70px {
+    margin: 70px;
+    border: 1px solid #4CAF50;
+}
+
+div.margin4 {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    background-color: lightblue;
+  }
+
+
+  /* Margin com 4 valores juntos que eh a mesma coisa que separados */
+  /*
+    margem: 25px 50px 75px 100px;
+    A margem superior é de 25px
+    A margem direita é de 50px
+    A margem inferior é de 75px
+    A margem esquerda é de 100px
+  */
+
+  div.marginJuntas {
+    border: 1px solid black;
+    border-width: 5px 5px;
+    
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+  }
+
+  div.automargin {
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
+  }
+
+/* margin com heranca */
+
+  div.marginPai {
+    border: 1px solid red;
+    margin-left: 100px;
+  }
+  
+  p.marginFilho {
+    border: 2px solid red;
+    margin-left: inherit;
+  }
+
+/* fim da margin com heranca */
+
+h1.marginColapse1 {
+  margin: 0 0 50px 0;
+}
+
+h2.marginColapse2 {
+  margin: 20px 0 0 0;
+}

@@ -1,0 +1,190 @@
+/* Exemplo 1: */
+
+ul.ex1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li.ex1 {
+  float: left;
+}
+
+li.ex1 a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+
+/* Exemplo 2: */
+
+ul.ex2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #dddddd;
+}
+
+li.ex2 {
+  float: left;
+}
+
+li.ex2 a {
+  display: block;
+  padding: 8px;
+}
+
+/* Exemplo 3 */
+
+ul.ex3 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.ex3 {
+  float: left;
+}
+
+li.ex3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.ex3 a:hover {
+  background-color: #111;
+}
+
+/* Exemplo 4 */
+
+ul.ex4 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.ex4 {
+  float: left;
+}
+
+li.ex4 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.ex4 a:hover:not(.active4) {
+  background-color: #111;
+}
+
+.active4 {
+  background-color: #04AA6D;
+}
+
+/* Exemplo 5 */
+
+ul.ex5 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.ex5 {
+  float: left;
+}
+
+li.ex5 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.ex5 a:hover:not(.active5) {
+  background-color: #111;
+}
+
+.active5 {
+  background-color: #04AA6D;
+}
+
+/* Exemplo 6: */
+
+ul.ex6  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li.ex6 {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li.ex6:last-child {
+  border-right: none;
+}
+
+li.ex6 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.ex6 a:hover:not(.active6) {
+  background-color: #111;
+}
+
+.active6 {
+  background-color: #04AA6D;
+}
+
+/* Exemplo7 */
+
+ul.ex7 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+}
+
+li.ex7 {
+  float: left;
+}
+
+li.ex7 a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.ex7 a:hover:not(.active7) {
+  background-color: #ddd;
+}
+
+li.ex7 a.active7 {
+  color: white;
+  background-color: #04AA6D;
+}

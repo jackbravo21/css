@@ -1,0 +1,189 @@
+body{
+    background-color: lightblue;
+}
+
+  p.uppercase {
+    text-transform: uppercase;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;
+  }
+  
+  p.capitalize {
+    text-transform: capitalize;
+  }
+
+  div.a {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: rotate(20deg);
+  }
+  
+  div.b {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: skewY(20deg);
+  }
+  
+  div.c {
+    width: 150px;
+    height: 80px;
+    background-color: yellow;
+    transform: scaleY(1.5);
+  }
+
+  #div1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 100px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  #div2 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    transform: rotate(45deg);
+    transform-origin: 20% 40%;
+  } 
+
+
+  #myDIV {
+    height:300px;
+    background-color:#FFFFFF;
+  }
+  #div11 {
+    position: relative;
+    margin: auto;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border: 1px solid black;
+  }
+  
+  #div22 {
+    padding: 50px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: red;
+    transform: rotate(45deg);
+    transform-origin: 10% bottom;
+  }
+
+  #div1 {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#div2 {
+  padding: 50px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  transform: rotateY(60deg);
+  transform-style: preserve-3d;
+}
+
+#div3 {
+  padding: 40px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: yellow;
+  transform: rotateY(-60deg);
+
+}
+
+/*  Transform-style */
+
+#div1transform {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  margin: 100px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+#div2transform {
+  padding: 50px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: red;
+  transform: rotateY(60deg);
+  transform-style: preserve-3d;
+}
+
+#div3transform {
+  padding: 40px;
+  position: absolute;
+  border: 1px solid black;
+  background-color: yellow;
+  transform: rotateY(-60deg);
+
+}
+
+/* Transicao animada */
+
+div.animated {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+
+div.animated:hover {
+  width: 300px;
+}
+
+/* Transition delay */
+
+div.delay {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+
+div.delay:hover {
+  width: 300px;
+}
+
+/* Transition duration */
+
+div.duration {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+div.duration:hover {
+  width: 300px;
+}
+
+/* Propriedade suave da propriedade de transicao */
+
+div.suave {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+div.suave:hover {
+  width: 300px;
+}
