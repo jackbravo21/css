@@ -1,0 +1,115 @@
+/*
+
+seletor{
+	propriedade1: valor1;
+	propriedade2: valor2;
+	
+	* = quer dizer toda;
+	. = classes sao declaradas com ponto.
+	color: #ff7f50;		= a cada 2 numeros, representa cada quantidade de cor: vermelho, verde, azul;
+	background-color: green;	=	 vai mudar apenas o fundo da linha;
+	margin = margem externa, espacamento dela para com outros objetos;
+	border = borda;
+	padding = 10px;		= margen/espacamento interno, espaco do conteudo para ela mesma, uma propriedade soh, ele aplica para todos os lados;
+	padding = 10px 0px 0px 0px;  	=	primeiro: padding cima, segundo: direita, terceiro: baixo, quarto: esquerda;
+	height: 100px; 	=	altura: 100 pixels.
+	min-height: 200px; =	o "min"-height diz que ela comeca com 200, mas conforme for add conteudo, ela vai crescendo.
+	width: 60%;	=	largura da div, em porcentagem da pagina.
+	float: left;	=	obriga a div a ficar de um lado, o "float" significa o lado.
+	clear: both;	= 	se usar float em uma propriedade, abaixo dela tem que por clear, para nao ficar atras.	
+	text-align: center; 	=	para centralizar um texto por exemplo;
+	font-size: 40px; 	=	altera o tamanho da fonte do texto 
+	font-family: monospace, "Comic Sans MS", "Times new roman";		=  O tipo de fonte, e as virgulas eh para caso nao encontrar, tenta a proxima. Nomes compostos tem que usar "aspas";
+	background-size = 100%;		=	Ajusta a imagem a toda;
+	text-shadow: 1px 1px 1px #111111;	=	cria sombra no texto, pode criar sombreamento de verdade tb, alterando os px (usar em tudo xD);
+
+	EFEITO ALPHA (deixa um painel preto atraz transparente):
+	.efeito{
+		background-color: rgba(0, 0, 0, 0.5);	= o ultimo valor eh a transparencia;
+	}
+	E la no html vc usa o <div class="efeito"> E coloca todo o conteudo dentro da div </div>;
+
+	}
+
+	Quando for TAG, eh puro, sem nada;
+	Quando for ID, usa-se o "#";
+
+
+*/
+
+/* Arquivo CSS */
+
+p{
+	color: #ff7f50;	/* a cada 2 numeros, representa cada quantidade de cor: vermelho, verde, azul; */
+	background-color: green; /* vai mudar apenas o fundo da linha */
+	font-size: 40px; /* altera o tamanho da fonte do texto */ 
+	font-family: monospace, "Comic Sans MS", "Times new roman"; /* O tipo de fonte, e as virgulas eh para caso nao encontrar, tenta a proxima. Nomes compostos tem que usar "aspas" */
+
+}
+
+body{
+	background-color: #000000; /* preto */	
+}
+
+* {		/* asterisco quer dizer "TODA A PAGINA" */
+
+margin: 0;
+padding: 0;	
+font-family: Helvetica, arial;
+
+}
+
+header{
+	background-color: #35b8b0;
+	height: 80px; 			/* altura: 100 pixels; */ 
+	padding: 20px;
+}
+
+div{
+	background-color: black;
+
+}
+
+footer{
+	clear: both;
+	background-color: #35b8b0;
+	height: 50px;
+	text-align: center;
+	padding: 10px;		/* colocando soh uma propriedade, ele aplica para todos os lados */
+}
+
+h1{
+	color: #FFFFFF;
+}
+
+/* quando eu crio um ID, eu um "#" */
+
+#div_principal{
+	background-color: red;
+	min-height: 200px;	
+	width: 60%;
+	float: left;
+}
+
+/*
+#div_esquerda{
+	background-color: red;
+	min-height: 200px;			// o "min"-height diz que ela comeca com 200, mas conforme for add conteudo, ela vai crescendo. 
+	width: 60%;					// largura da div, em porcentagem da pagina.
+	float: left;				// obriga a div a ficar de um lado, o "float" significa o lado.
+}
+
+#div_direita{
+	background-color: yellow;
+	min-height: 200px;	
+	width: 40%;
+	float: right;
+}
+*/
+
+/* Class */
+
+.container{
+	width: 80%;
+	margin: 0 auto; /* se eu usar margin auto ao inves de definir, ele se ajusta ao monitor, tipo o fluid do bootrap, o valor 1 eh sempre altura o segundo eh largura*/
+}
